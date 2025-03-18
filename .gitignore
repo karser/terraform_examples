@@ -1,0 +1,32 @@
+.idea/
+
+# Terraform-specific files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+*.tfplan
+
+# Local environment and configuration files
+*.env
+*.local
+
+# Log and temporary files
+*.log
+*.tmp
+*.temp
+
+# macOS-specific files
+.DS_Store
+
+# Editor-specific files
+*.swp
+*.swo
